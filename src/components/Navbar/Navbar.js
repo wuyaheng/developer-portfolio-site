@@ -17,7 +17,7 @@ class Navbar extends Component {
                 <div className="navbar-fixed">
                     <nav className="nav-wrapper #000000 black">
                         <div className="container">
-                            <a href="/" className="brand-logo" id="logo">Caroline Ninganga</a>
+                            <a href="/" className="brand-logo" id="logo">Caroline</a>
                             <a href="/" className="sidenav-trigger" data-target="mobile-links">
                                 <i className="material-icons">menu</i>
                             </a>

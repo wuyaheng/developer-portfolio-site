@@ -53,15 +53,15 @@ export default class App extends Component {
             pointerEvents: "none"
           }}
         >
-          <h1
+          <h1 className="animate__animated animate__zoomIn animate__delay-1s"
             style={{
               fontSize: "3em",
               textShadow: "2px 2px 8px rgba(0, 0, 0, 0.5)"
             }}
-          >
-            Caroline Ning'ang'a
+          > 
+            Welcome to My World
           </h1>
-          <h4 className="animate__animated animate__backInDown">Hey, there! Welcome to my world</h4>
+          <h5 className="animate__animated animate__backInDown animate__delay-2s">Caroline Ning'ang'a</h5>
         </div>
       </div>
     );
