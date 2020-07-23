@@ -3,14 +3,14 @@
 }
 
 .myNav a:hover{
-    color: #b298dc;
+    color: #ffc107;
 }
 
 
 a:hover {
   text-decoration: none;
   outline: none;
-  color: #b298dc;
+  color: #ffc107;
 }
 
 

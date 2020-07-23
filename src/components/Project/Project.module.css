@@ -28,5 +28,9 @@
 .actions {
     background: none;
     border: none;
-    color: purple;
+    color: #ffc107;
+}
+
+.actions:hover {
+    color: #eed7c5;
 }
