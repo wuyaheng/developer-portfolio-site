@@ -8,25 +8,26 @@ class Resume extends Component {
             <>
             <Navbar />
             <div className="wrapper mb-3">
-            <div class="resume">
-  <div class="base">
+            <div class="resume row">
+
+
+  <div class="base col-md-5">
     <div class="profile">
       <div class="photo">
-        <img src="#" alt="self"/>
-        <i class="fas fa-rocket"></i>
+        <img style={{width: "250px"}} src="https://avatars0.githubusercontent.com/u/33443452?s=400&u=6e9d27ba0ffcf16d8760bc9984376d56fae4347c&v=4" alt="self"/>
       </div>
       <div class="info">
-        <h1 class="name">Naomi Weatherford</h1>
-        <h2 class="job">Frontend Web Designer</h2>
+        <h1 class="name">Caroline Ning'ang'a</h1>
+        <h2 class="job">Full Stack Web Developer</h2>
       </div>
     </div>
-    <div class="about">
-      <h3>About Me</h3>I'm a web designer for Fiserv, specializing in web design, graphic design, and UX. Experienced with the Adobe Creative Suite, responsive design, social media management, and prototyping.
+    <div class="about"> 
+      <h3>About Me</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </div>
     <div class="contact">
       <h3>Contact Me</h3>
       <div class="call"><a href="tel:123-456-7890"><i class="fas fa-phone"></i><span>123-456-7890</span></a></div>
-      <div class="address"><a href="https://goo.gl/maps/fiTBGT6Vnhy"><i class="fas fa-map-marker"></i><span>Provo, Utah</span></a>
+      <div class="address"><a href="https://goo.gl/maps/fiTBGT6Vnhy"><i class="fas fa-map-marker"></i><span>New York, NY</span></a>
       </div>
       <div class="email"><a href="mailto:astronaomical@gmail.com"><i class="fas fa-envelope"></i><span>astronaomical</span></a></div>
       <div class="website"><a href="http://astronaomical.com/" target="_blank" rel="noopener noreferrer"> <i class="fas fa-home"></i><span>astronaomical.com</span></a></div>
@@ -43,7 +44,9 @@ class Resume extends Component {
       </div>
     </div>
   </div>
-  <div class="func">
+
+
+  <div class="func col-md-7">
     <div class="work">
       <h3><i class="fa fa-briefcase"></i>Experience</h3>
       <ul>
@@ -100,35 +103,7 @@ class Resume extends Component {
         </li>
       </ul>
     </div>
-    <div class="skills-soft">
-      <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
-      <ul>
-        <li data-percent="90">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Illustrator</span><small></small>
-        </li>
-        <li data-percent="75">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Photoshop</span><small></small>
-        </li>
-        <li data-percent="85">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>InDesign</span><small></small>
-        </li>
-        <li data-percent="65">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Dreamweaver</span><small></small>
-        </li>
-      </ul>
-    </div>
+
     <div class="interests">
       <h3><i class="fas fa-star"></i>Interests</h3>
       <div class="interests-items">
