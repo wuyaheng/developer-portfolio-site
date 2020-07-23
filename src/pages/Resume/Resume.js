@@ -22,7 +22,7 @@ class Resume extends Component {
       </div>
     </div>
     <div class="about"> 
-      <h3>About Me</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      <h3>About Me</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </div>
     <div class="contact">
       <h3>Contact Me</h3>
@@ -91,7 +91,7 @@ class Resume extends Component {
             <div class="bar"></div>
           </div>
         </li>
-        <li data-percent="55"><span>PHP</span>
+        <li data-percent="55"><span>React</span>
           <div class="skills-bar">
             <div class="bar"></div>
           </div>
